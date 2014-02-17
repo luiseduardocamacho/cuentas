@@ -11,9 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20140217213443) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "compras", force: true do |t|
+    t.string   "seudonimo"
+    t.string   "nombre"
+    t.string   "apellido"
+    t.integer  "age"
+    t.integer  "order_id"
+    t.datetime "fecha"
+    t.integer  "precio"
+    t.string   "publicacion"
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

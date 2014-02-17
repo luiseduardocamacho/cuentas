@@ -51,6 +51,6 @@ Cuentas::Application.routes.draw do
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
+       resources :compras
   #   end
 end

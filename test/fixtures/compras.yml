@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  seudonimo: MyString
+  nombre: MyString
+  apellido: MyString
+  age: 1
+  order_id: 1
+  fecha: 2014-02-17 16:34:43
+  precio: 1
+  publicacion: MyString
+  email: MyString
+
+two:
+  seudonimo: MyString
+  nombre: MyString
+  apellido: MyString
+  age: 1
+  order_id: 1
+  fecha: 2014-02-17 16:34:43
+  precio: 1
+  publicacion: MyString
+  email: MyString
