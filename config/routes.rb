@@ -3,7 +3,7 @@ Cuentas::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root 'compras#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -51,6 +51,6 @@ Cuentas::Application.routes.draw do
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
-       resources :compras
+       resources :compras, :ml
   #   end
 end
